@@ -22,9 +22,6 @@ public class Kleinbottle : MonoBehaviour {
     {
         step = 2f / resolution;
         Vector3 scale = Vector3.one * step * 2f;
-        Vector3 position;
-        position.y = 0f;
-        position.z = 0f;
         points = new Transform[resolution * resolution];
         for (int i = 0; i < points.Length; i++)
         {

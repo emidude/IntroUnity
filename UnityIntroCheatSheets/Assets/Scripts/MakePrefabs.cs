@@ -30,7 +30,7 @@ public class MakePrefabs : MonoBehaviour {
 
             setColour(colour, pf); //pf passed by reference
 
-            prefabs.Add(pf);
+            //prefabs.Add(pf);
 
         }
 	}
