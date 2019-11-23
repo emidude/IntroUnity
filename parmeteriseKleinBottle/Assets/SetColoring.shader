@@ -12,11 +12,15 @@
 	SubShader {
      //Tags {"Queue"="Transparent" "RenderType"="Transparent" }
 	 Tags { "RenderType"="Opaque" }
+     
+     Cull Off
+
      CGPROGRAM
      #pragma surface surf Lambert
 	 //#pragma surface surf Standard fullforwardshadows alpha:fade
      #pragma target 3.0
-
+     
+     
     	
 
 	 //uniform float4 _FourDCoordinatesAtStart;
